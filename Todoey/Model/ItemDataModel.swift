@@ -8,12 +8,8 @@
 
 import Foundation
 
-class  ItemDataModel {
-    
+class  ItemDataModel: Codable {
     var title : String = ""
     var done : Bool = false
-    
-    
-    
-    
+ 
 }
